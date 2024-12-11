@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kulture Soviet</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="logo" type="png" href="{{ url_for('static', filename='photo/Designer.png')}}"></link>
+</head>
+<body background="https://i.imgur.com/45K0hl9.jpeg">
+    <header class="header">
+        <div class="section mod--header">
+            <a href="index.html" class="logo-link">
+                <img src="https://i.imgur.com/5hUp8fC.png" alt="Logo"/>
+            </a>
+            <h1>Kulture Soviet</h1>
+            <nav>
+                <a href="{{ url_for('index') }}">Главная</a>
+                <a href="{{ url_for('login') }}">Войти</a>
+                <a href="{{ url_for('signup') }}">Регистрация</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section mod--hero">
+            <h2>Анализ</h2>
+            <h1>Отчет</h1>
+            <h2 class="text-style-italic">ИИ</h2>
+            <h2>Получение результата в кратчайшие сроки</h2>
+        </section>
+        <section class="section mod--about">
+            <p>Мы специализируемся на быстроте и качестве работы наших клиентов и ставим это в приоритет.</p>
+            
+        </section>
+        <div><a href="index.html" class="btn-arrow">Проверь свой сайт!</a></div>
+    </main>
+    <footer class="footer">
+        <div class="section mod--footer">
+            <h2>Контакты</h2>
+            <nav>
+                <a href="#" target="_blank">Telegram</a>
+                <a href="#" target="_blank">ВК</a>
+                <a href="#" target="_blank">Сферум</a>
+                <a href="#" target="_blank">Одноклассники</a>
+            </nav>
+            <nav class="abc"><a href="#" target="_blank">О нас</a></nav>
+            
+        </nav>
+        </div>
+    </footer>
+</body>
+</html>

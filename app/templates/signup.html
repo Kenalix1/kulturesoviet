@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body background="https://i.imgur.com/45K0hl9.jpeg">
+<form method="POST">
+    <input type="text" name="username" placeholder="Логин" required>
+    <input type="password" name="password" placeholder="Пароль" required>
+    <button type="submit">Зарегистрироваться</button>
+    <h2>Регистрация</h2>
+</form>
+<a href="/login">Вход</a>
+</body>
+</html>

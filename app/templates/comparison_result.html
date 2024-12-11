@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат сравнения</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Результат сравнения</h1>
+    <pre>{{ result }}</pre>
+    <a href="{{ url_for('dashboard') }}">Вернуться на главную</a>
+    <form method="post">
+        <input type="text" action="/compare_result" name="user_input" placeholder="Введите что-то...">
+        <button type="submit">Отправить</button>
+    </form>
+    {% if user_input %}
+        <h2>результат сравнения: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>

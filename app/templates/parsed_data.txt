@@ -1,0 +1,610 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>РКСИ :: Главная страница :: Официальный сайт Ростовского-на-Дону колледжа связи и информатики</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="/css/flex.css" rel="stylesheet" type="text/css">
+    <link href="/css/popup.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/video.css" rel="stylesheet" type="text/css">
+    <link href="/css/rksi.css" rel="stylesheet" type="text/css">
+    <link href="/css/magnific-popup.css" rel="stylesheet"/>
+    <link href="/css/bvi.css" rel="stylesheet">
+    <link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.magnific-popup.min.js"></script>
+    <script src="/scripts/rksi.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
+    <script src="https://pos.gosuslugi.ru/bin/script.min.js"></script>
+    <script src="/scripts/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="/scripts/modernizr.js"></script>
+<style>
+  .mfp-img{cursor:pointer}
+  .slideitem {position:absolute; left:0; top:0; z-index:2;}
+</style>
+<noscript>
+	<link rel="stylesheet" type="text/css" href="/css/styleNoJS.css" />
+</noscript>
+<script>
+/*
+$(document).ready(function() {
+    $('.popup-youtube').magnificPopup({
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        preloader: true,
+    });
+  $('.popup-youtube').magnificPopup('open');
+}); 
+
+$(document).ready(function(){
+    $.magnificPopup.open({
+      items: {
+   	 src: '/img/congrulations/1sent2024.jpg'
+      },
+      type: 'image',
+      closeOnContentClick: true
+   });*/
+//$('.mfp-img').click(function(){document.location.href='https://rksi.ru/cabinet'});
+  
+});
+
+
+</script>
+</head>
+
+<body>
+<button type="button" class="bvi-open" style="position: fixed; left: 10px; bottom: 10px; z-index: 1000; background-color: #F8F9FB; border: 0; cursor: pointer;" itemprop="copy"><i class="fa fa-universal-access fa-4x" aria-hidden="true" style="color: #0063AF;"></i> </button>
+<div class="top">
+   <div class="top-left"><span id="rmenu-show"><i class="fa fa-bars" aria-hidden="true"></i></span></div><div class="top-center"> 
+
+<span class="top-span"><a href="/it_tech2024"><i class="fa fa-code" aria-hidden="true"></i> Хакатон IT Tech 2024</a></span>
+  
+</div>     
+    <div class="top-yandex"><div style="margin:auto; padding:0 1em;"><div class="ya-site-form ya-site-form_inited_no" onclick="return {'bg': '#034ea2', 'target': '_self', 'language': 'ru', 'suggest': true, 'tld': 'ru', 'site_suggest': true, 'action': 'http://rksi.ru/search', 'webopt': false, 'fontsize': 14, 'arrow': false, 'fg': '#000000', 'searchid': '1903495', 'logo': 'rb', 'websearch': false, 'type': 3}"><form action="http://yandex.ru/sitesearch" method="get" target="_self"><input type="hidden" name="searchid" value="1903495" /><input type="hidden" name="l10n" value="ru" /><input type="hidden" name="reqenc" value="" /><input type="text" name="text" value="" /><input type="submit" value="Найти" /></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;(' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1&&(e.className+=' ya-page_js_yes');s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script></div></div>
+    <div class="top-right">
+                <a href="https://vk.com/pkcu_college" target="_blank"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+        <a href="https://t.me/rksi_ru" target="_blank"><i class="fa fa-telegram fa-lg" aria-hidden="true"></i></a>
+        <i class="fa fa-envelope-o fa-lg href" aria-hidden="true" onclick="popup_toggle('https://docs.google.com/forms/d/1vfR4TW8zo8jpjyP446Bjb5FK_gJA9dUaBtj9GkSjeto/viewform?embedded=true');"></i>
+        <a href="/trust_service" target="_blank"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></a>
+    </div>
+</div>
+<div class="header">
+    <nav class="menutopbox" style="padding-bottom: 0;">
+        <div class="menu info">
+            <ul class="topmenu">
+                <li><input type="checkbox" checked><i></i><a href="/sveden">Сведения об образовательной организации</a>
+                    <ul class="submenu">
+<li><a href="/sveden/common">Основные сведения</a></li><li><a href="/sveden/struct">Структура и органы управления образовательной организацией</a></li><li><a href="/sveden/document">Документы</a></li><li><a href="/sveden/education">Образование</a></li><li><a href="/sveden/edustandarts">Образовательные стандарты и требования</a></li><li><a href="/sveden/managers">Руководство</a></li><li><a href="/sveden/employees">Педагогический состав</a></li><li><a href="/sveden/objects">Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда</a></li><li><a href="/sveden/grants">Стипендии  и меры  поддержки обучающихся</a></li><li><a href="/sveden/paid_edu">Платные образовательные услуги</a></li><li><a href="/sveden/budget">Финансово-хозяйственная деятельность</a></li><li><a href="/sveden/vacant">Вакантные места для приема (перевода) обучающихся</a></li><li><a href="/sveden/inter">Международное сотрудничество</a></li><li><a href="/sveden/catering">Организация питания в образовательной организации</a></li>                        <li><a href="/info_results">Результаты деятельности колледжа</a></li>
+                        <li><a href="/children_rights">Уполномоченный по правам ребёнка</a></li>
+                        <li><a href="/stop_corruption">Противодействие коррупции</a></li>
+                        <li><a href="/contrextremizm">Противодействие терроризму и экстремизму</a></li>
+                        <li><a href="/netsafety">Информационная безопасность обучающихся</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="edu"><strong>Образование:</strong> <a href="/sveden/education">Основное</a> | <a href="http://rc.rksi.ru" target="_blank">Дополнительное</a> | <a href="http://copp161.ru" target="_blank">Опережающее</a> | <a href="http://do-rksi.ru" target="_blank">Заочное</a></nav>
+    <div class="logo"><a href="/main"><img src="/img/rksi/logorksi.svg" class="logorksi"/><img src="/img/rksi/logorksismall.svg" class="logorksismall"/></a></div> 
+    <nav class="menutopbox drop">
+        <div class="menu">
+        <ul class="topmenu">
+<li><input type="checkbox" checked><i></i><span>Наши победы</span>
+    <ul class="submenu">
+        <li><a href="/olimp">Олимпиады, конкурсы, конференции, выставки</a></li>
+                <li><a href="/names">Знаменитые выпускники</a></li>
+        <li><a href="/honor_board">Наша гордость</a></li>
+        <li><a href="/best_students2024">Лучшие студенты</a></li>
+        <li><a href="/best_groop">Лучшая группа</a></li>
+                <li><a href="/sport">Спортивные победы</a></li>
+    </ul>
+</li>
+<li><input type="checkbox" checked><i></i><span>На базе РКСИ</span>
+    <ul class="submenu">
+        <li><a href="/professionals2024" target="_blank">Чемпионат по профессиональному мастерству «Профессионалы»</a></li>
+        <li><a href="/high_technology2024" target="_blank">Региональный этап чемпионата высоких технологий</a></li>
+        <li><a href="/it_tech2024">Хакатон «IT Tech»</a></li>
+         <li><a href="/olimpiada2024">Региональная олимпиада профессионального мастерства</a></li>
+        <li><a href="/festival2024">Областной фестиваль «Моя будущая профессия – специалист в области ИТ и телекоммуникаций»</a></li>
+        <li><a href="/spo2023">День среднего профессионального образования</a></li>
+        <li><a href="/together_for_the_truth2024">Патриотический слёт «Вместе за правду»</a></li>
+        <li><a href="/concurses">Конкурсы профессионального мастерства педагогов</a></li>
+        <li><a href="https://it-factory.rksi.su/" target="_blank">IT-фабрика</a></li>
+        <li><a href="/museum" target="_blank">Музей РКСИ</a></li>
+    </ul>
+</li>
+<li><input type="checkbox" checked><i></i><span>Учебные центры</span>
+    <ul class="submenu">
+        <li><a href="http://rc.rksi.ru" target="_blank">Региональный отраслевой ресурсный центр информационных технологий и телекоммуникаций</a></li>
+        <li><a href="/cisco">Сетевая академия Cisco</a></li>
+        <li><a href="/samsung">Сервисная академия Samsung</a></li>
+        <li><a href="/mikrotik">Академия Mikrotik</a></li>
+        <li><a href="/basealt">Авторизованный учебный центр «Базальт&nbsp;СПО»</a></li>
+        <li><a href="/nikomax">Авторизованный учебно-практический центр NIKOMAX</a></li>
+    </ul>
+</li>
+
+
+<li><input type="checkbox" checked><i></i><span>Полезное</span>
+    <ul class="submenu">
+    <li><a href="/employment">Трудоустройство</a></li>
+            <li><a href="/good_channels">Полезные каналы коммуникации в сфере образования</a></li>
+        <li><a href="/scam">Как понять, что говоришь с мошенником?</a></li>
+        <li><a href="http://rksi.ru/doc/gosuslugi/freejustition.doc">Оказание бесплатной юридической помощи</a></li>
+         <li><a href="/doc/safety/bpla.pdf" target="_blank">Как вести себя при атаке БПЛА</a></li>
+        <li><a href="https://drive.google.com/file/d/1k51X5lnYyQXdNLBqQ7XNbdimOaoY-6wa/view?usp=sharing" target="_blank">Профилактика правонарушений в сети Интернет</a></li>
+         <li><a href="/stop_drags">Нет наркотикам!</a></li>
+        <li><a href="/infection">Профилактика инфекций</a></li>
+        <li><a href="/safety" target="_blank">Безопасность жизнедеятельности</a></li>
+        <li><a href="/netsafety">Информационная безопасность</a></li>
+        <li><a href="/gosuslugi">Государственные услуги</a></li>
+    </ul>
+</li>
+<li><input type="checkbox" checked><i></i><span>Психологическая служба</span>
+    <ul class="submenu">
+        <li><a href="/trust_service">Служба доверия</a></li>
+        <li><a href="/psychological_service">Психологи колледжа</a></li>
+          </ul>
+</li>
+<li><input type="checkbox" checked><i></i><span>Обратная связь</span>
+    <ul class="submenu" id="lastitem">
+        <li><a href="/contacts">Контакты</a></li>
+        <li><a href="#"  onclick="popup_toggle('https://docs.google.com/forms/d/1vfR4TW8zo8jpjyP446Bjb5FK_gJA9dUaBtj9GkSjeto/viewform?embedded=true');">Обращение или консультация</a></li>
+        <li><a href="#"  onclick="popup_toggle('https://docs.google.com/forms/d/e/1FAIpQLSekPJBJJvEtd3-wlDMefKdghc3H5NMV52zWfvnVLlEQGd2gDA/viewform?embedded=true');">Оставить отзыв о качестве образования</a></li>
+        <li><a href="/recruiter">Заказать дипломную работу</a></li>
+                
+    </ul>
+</li>
+</ul>
+        </div>
+    </nav>     
+    <nav class="menubox">
+        <div class="menu">
+        <ul class="topmenu">
+    <li><input type="checkbox" checked><i></i><span>Новости</span>
+    <ul class="submenu">
+        <li><a href="/news">Новости</a></li>
+        <li><a href="/open_days">Дни открытых дверей</a></li>
+        <li><a href="/news/smi">СМИ о нас</a></li>
+        <li><a href="/videonews">РКСИ-ТВ</a></li>
+        <li><a href="/aska-net">Газета колледжа «Аська.NET»</a></li>
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>О колледже</span>
+    <ul class="submenu">
+        <li><a href="/tour">3D-тур</a></li>     
+        <li><a href="/history">История и традиции</a></li>
+        <li><a href="/blago">Отзывы и благодарности</a></li>
+        <li><a href="https://trudvsem.ru/company/1026103275440" target="_blank">Вакансии колледжа</a></li>
+        <li><a href="/priority">Конкурентные преимущества</a></li>
+        <li><a href="/international">Международное сотрудничество</a></li>
+        <li><a href="/pops">Попечительский совет</a></li>
+        <li><a href="/starfsmenntun">Взаимодействие с ВУЗами</a></li>
+        <li><a href="/nir">Научно-исследовательская работа</a></li>
+        <li><a href="/demo_exam">Демонстрационный экзамен</a></li>
+        <li><a href="/mentorship">Наставничество в РКСИ</a></li>
+        <li><a href="/young_professionals">Национальный проект «Образование»</a></li>
+        <li><a href="/social">Социальное партнерство</a></li>
+        <li><a href="/contacts">Контакты</a></li>
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Студенту</span>
+    <ul class="submenu">
+    <li><a href="/online_edu">Работа РКСИ в режиме оn-line</a></li>
+        <li><a href="/schedule">Расписания</a></li>
+        <li><a href="/sveden/education">Образовательные программы</a></li>
+        <li><a href="/account">Кабинет студента</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1TYqoU3pGHd_u1UWjHV5TaHKOZr_d3nYG1MG0cVKye3Q/view#gid=1185239252" target="_blank">Связь с преподавателями</a></li>
+        <li><a href="/movement_of_the_first">Движение Первых</a></li>
+        <li><a href="/military">Учебные сборы</a></li>
+        <li><a href="/doc/targeted/student.pdf" target="_blank">Памятка обучающемуся по организации  целевого обучения</a></li>
+        <li><a href="/faculties">Отделения</a></li>
+        <li><a href="/librery">Библиотека колледжа</a></li>
+        <li><a href="/netlibs">Сетевые электронные библиотеки</a></li>
+        <li><a href="/prise">Оплата обучения</a></li>
+        <li><a href="/loans">Образовательные кредиты</a></li>
+        <li><a href="/useful_info">Полезная информация</a></li>
+        <li><a href="/access_control">Как восстановить пропуск?</a></li>
+        <li><a href="/sports_club">Спортивный клуб</a></li>
+        <li><a href="/creative_studios">Творческие студии</a></li>
+        <li><a href="//mediapark.rksi.ru/">Медиастудия РКСИ</a></li>
+        <li><a href="/sno">Научное общество</a></li>
+        <li><a href="/materials">Учебные материалы</a></li>
+        <li><a href="/praktica">Производственная практика</a></li>     
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Абитуриенту</span>
+    <ul class="submenu">
+        <li><a href="/priem">Приeм в РКСИ</a></li>
+        <li><a href="/reception" >Заполнить заявление онлайн</a></li>         <li><a href="/cabinet">Кабинет абитуриента</a></li><li><a href="/newstudentlist">Приказы о зачислении и cписки зачисленных в РКСИ</a></li>
+                 
+        <li><a href="/admission">Специальности для поступления</a></li>
+        
+        <li><a href="/podkursi">Подготовительные курсы</a></li>
+        <li><a href="/ito_school">Воскресная школа информатики</a></li>
+         <li><a href="/credit">Образовательный кредит</a></li>
+          <li><a href="/doc/targeted/abiturient.pdf" target="_blank">Памятка абитуриенту по организации  целевого обучения</a></li>
+        <li><a href="https://it-factory.rksi.su/" target="_blank">Летний мини-лагерь «IT-фабрика компьютерных гениев!»</a></li>
+        <li><a href="/dorms">Общежития</a></li>
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Выпускнику</span>
+    <ul class="submenu">
+        <li><a href="/employment">Трудоустройство</a></li>    
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Родителям</span>
+    <ul class="submenu">
+                <li><a href="/no_diversity">Предотвращение вовлечения подростков в совершение диверсий</a>
+                <li><a href="https://drive.google.com/file/d/1HgHm69e7rz2sZl0uIRqaHaEoJJoKPpTS/view" target="_blank">Об особенностях развития детей и подростков.</a>
+                <li><a href="/doc/safety/yabedavk.pdf?t=88a0ee53faa2b9ed" target="_blank">Как пожаловаться на противоправные материалы?</a>
+        <li><a href="/doc/safety/pamyatka_group.pdf?t=88a0ee53faa2b9ed" target="_blank">Как выявить вовлечённость в «Группы смерти»?</a>
+        <li><a href="/doc/klr/safety3.pdf?t=88a0ee53faa2b9ed" target="_blank">Безопасность в сети</a></li>
+        <li><a href="https://drive.google.com/file/d/14muXoOBL62kvp-_8HSDcMDO-maon8_lU/view?usp=share_link" target="_blank">Безопасность детей в интернете. Возраст и этапы развития</a></li>
+        <li><a href="https://drive.google.com/file/d/1YTpazPbECEGrpGnBJCDF31nZnYHspQK1/view?usp=share_link" target="_blank">Как распознать мошенничество в сети</a></li>
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Преподавателям</span>
+    <ul class="submenu" id="lastitem">
+     <li><a href="/locals#teacher">Документация</a></li>
+        <li><a href="/class">Классному руководителю</a></li>
+        <li><a href="/class_leader">Кабинет классного руководителя</a></li>
+        <li><a href="/schedule_archive">Архив расписания</a></li>
+        <li><a href="/mentorship">Наставничество в РКСИ</a></li>
+        <li><a href="/attestation">Аттестация педагогических работников</a></li>
+        <li><a href="http://rksi.ru/infection#corona">Коронавирус: что делать?</a>
+        <li><a href="/librery#zakaz">Заказ учебников</a></li>
+        <li><a href="/good_channels">Полезные каналы коммуникации в сфере образования</a></li>
+        <li><a href="/methodika">Методические разработки</a></li>
+    </ul></li>
+</ul>     
+        </div>
+    </nav>
+</div>
+
+<div class="main">
+    <div class="wrapper">
+        <h1>РКСИ :: Главная страница</h1>
+<div style="position:relative" ><div><a href="/it_tech2024"><img src="/img/pages/top/it_tech2024.jpg" style="width:100%; height:auto;"></a></div></div>    <main>
+
+<h2 class="h2">Новости</h2>
+<div class="flexbox" ><div class="flexnews" id="news3944"><a href="/news/n_3944"><img src="/img/news/3944.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">09.12.2024</span><a href="/news/n_3944"><h4>Мы — лучшие!</h4></a>Ростовский колледж связи и информатики признан лучшим в ИТ-образовании по версии «РУССОФТ».
+<br /><br /><a href="/news/n_3944" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3943"><a href="/news/n_3943"><img src="/img/news/3943.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">07.12.2024</span><a href="/news/n_3943"><h4>Итоги соревнований</h4></a>Подведены итоги турнира по мини-футболу памяти руководителя физвоспитания РКСИ Алексея Ивановича Белоусова и соревнований РКСИ по армлестлингу. <br /><br /><a href="/news/n_3943" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3942"><a href="/news/n_3942"><img src="/img/news/3942.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">06.12.2024</span><a href="/news/n_3942"><h4>Поздравляем с победой!</h4></a>Преподаватель РКСИ Ольга Олеговна Шумина одержала победу в специальной номинации «За творческий подход» второго регионального конкурса педагогического мастерства «Лучший урок по финансовой грамотности».
+
+<br /><br /><a href="/news/n_3942" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3941"><a href="/news/n_3941"><img src="/img/news/3941.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">05.12.2024</span><a href="/news/n_3941"><h4>Участие в хакатоне</h4></a>Студенты нашего колледжа связи и информатики  приняли успешное участие в хакатоне «RinhHack».
+<br /><br /><a href="/news/n_3941" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3940"><a href="/news/n_3940"><img src="/img/news/3940.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">04.12.2024</span><a href="/news/n_3940"><h4>Завтрак с директором</h4></a> В преддверии Дня добровольца в РКСИ состоялась встреча директора со студенческим активом. Сергей Николаевич отметил работу волонтеров и наградил благодарственными письмами отличившихся студентов.
+<br /><br /><a href="/news/n_3940" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3938"><a href="/news/n_3938"><img src="/img/news/3938.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">03.12.2024</span><a href="/news/n_3938"><h4>Итоги шахматного турнира</h4></a> Подведены итоги осеннего турнира колледжа по шахматам. 
+<br /><br /><a href="/news/n_3938" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3939"><a href="/news/n_3939"><img src="/img/news/3939.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">03.12.2024</span><a href="/news/n_3939"><h4>Открытый кубок по мини-футболу</h4></a>Завершился открытый кубок РКСИ по мини-футболу.
+<br /><br /><a href="/news/n_3939" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3937"><a href="/news/n_3937"><img src="/img/news/3937.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">30.11.2024</span><a href="/news/n_3937"><h4>Встреча с представителями фонда</h4></a>Представители Фонда «Развитие ИТ-образования» провели встречу с преподавателями цикловой комиссии программирования колледжа.<br /><br /><a href="/news/n_3937" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3936"><a href="/news/n_3936"><img src="/img/news/3936.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">28.11.2024</span><a href="/news/n_3936"><h4>Разработчики будущего</h4></a> Сергей Сергеевич Дегтярев, преподаватель  цикловой комиссии программирования РКСИ стал победителем в номинации «История успеха эксперта-разработчика оценочных материалов» Всероссийского конкурса среди экспертов-разработчиков оценочных материалов «Разработчики будущего: профессиональное образование и развитие». 
+<br /><br /><a href="/news/n_3936" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3933"><a href="/news/n_3933"><img src="/img/news/3933.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">26.11.2024</span><a href="/news/n_3933"><h4>Большая перемена</h4></a>Студент РКСИ Даниэль Канаш, обучающийся по специальности «Обеспечение информационной безопасности автоматизированных систем» стал лауреатом Всероссийского конкурса «Большая перемена».
+
+<br /><br /><a href="/news/n_3933" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3930"><a href="/news/n_3930"><img src="/img/news/3930.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">24.11.2024</span><a href="/news/n_3930"><h4>День открытых дверей</h4></a> В нашем колледже состоялся очередной День открытых дверей. Абитуриенты и их родители познакомились со специальностями колледжа, его инфраструктурой и возможностями для профессионального развития студентов.
+<br /><br /><a href="/news/n_3930" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><div class="flexnews" id="news3934"><a href="/news/n_3934"><img src="/img/news/3934.jpg" class="flexnews_img"/></a>
+<div><span class="smalli">24.11.2024</span><a href="/news/n_3934"><h4>Победа в хакатоне</h4></a>Студенты РКСИ  одержали победу в кейсе «Центр-инвеста»  хакатона «Cyber Garden».
+<br /><br /><a href="/news/n_3934" class="news_more"><i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></a>
+	</div>
+</div><p class="big150" ><a href="/news" >Все новости</a></p></div>
+ 
+   <div style="clear: both;"></div>
+   </main>
+    
+<script src='https://pos.gosuslugi.ru/bin/script.min.js'></script> <style> #js-show-iframe-wrapper{position:relative;display:flex;align-items:center;justify-content:center;width:100%;min-width:293px;max-width:100%;background:linear-gradient(138.4deg,#38bafe 26.49%,#2d73bc 79.45%);color:#fff;cursor:pointer}#js-show-iframe-wrapper .pos-banner-fluid *{box-sizing:border-box}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2{display:block;width:240px;min-height:56px;font-size:18px;line-height:24px;cursor:pointer;background:#0d4cd3;color:#fff;border:none;border-radius:8px;outline:0}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:hover{background:#1d5deb}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:focus{background:#2a63ad}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:active{background:#2a63ad}@-webkit-keyframes fadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@keyframes fadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@font-face{font-family:LatoWebLight;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoWeb;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebLight;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebRegular;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:ScadaWebRegular;src:url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:ScadaWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:Geometria;src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.eot);src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.eot?#iefix) format("embedded-opentype"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:Geometria-ExtraBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.eot);src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.eot?#iefix) format("embedded-opentype"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.ttf) format("truetype");font-weight:800;font-style:normal} </style> <style> #js-show-iframe-wrapper .bf-2{position:relative;display:grid;grid-template-columns:var(--pos-banner-fluid-2__grid-template-columns);grid-template-rows:var(--pos-banner-fluid-2__grid-template-rows);width:100%;max-width:1060px;font-family:LatoWeb,sans-serif;box-sizing:border-box}#js-show-iframe-wrapper .bf-2__decor{grid-column:var(--pos-banner-fluid-2__decor-grid-column);grid-row:var(--pos-banner-fluid-2__decor-grid-row);padding:var(--pos-banner-fluid-2__decor-padding);background:var(--pos-banner-fluid-2__bg-url) var(--pos-banner-fluid-2__bg-position) no-repeat;background-size:var(--pos-banner-fluid-2__bg-size)}#js-show-iframe-wrapper .bf-2__logo-wrap{position:absolute;top:var(--pos-banner-fluid-2__logo-wrap-top);bottom:var(--pos-banner-fluid-2__logo-wrap-bottom);right:0;display:flex;flex-direction:column;align-items:flex-end;padding:var(--pos-banner-fluid-2__logo-wrap-padding);background:#2d73bc;border-radius:var(--pos-banner-fluid-2__logo-wrap-border-radius)}#js-show-iframe-wrapper .bf-2__logo{width:128px}#js-show-iframe-wrapper .bf-2__slogan{font-family:LatoWebBold,sans-serif;font-size:var(--pos-banner-fluid-2__slogan-font-size);line-height:var(--pos-banner-fluid-2__slogan-line-height);color:#fff}#js-show-iframe-wrapper .bf-2__content{padding:var(--pos-banner-fluid-2__content-padding)}#js-show-iframe-wrapper .bf-2__description{display:flex;flex-direction:column;margin-bottom:24px}#js-show-iframe-wrapper .bf-2__text{margin-bottom:12px;font-size:24px;line-height:32px;font-family:LatoWebBold,sans-serif;color:#fff}#js-show-iframe-wrapper .bf-2__text_small{margin-bottom:0;font-size:16px;line-height:24px;font-family:LatoWeb,sans-serif}#js-show-iframe-wrapper .bf-2__btn-wrap{display:flex;align-items:center;justify-content:center} </style > <div id='js-show-iframe-wrapper'> <div class='pos-banner-fluid bf-2'> <div class='bf-2__decor'> <div class='bf-2__logo-wrap'> <img class='bf-2__logo' src='https://pos.gosuslugi.ru/bin/banner-fluid/gosuslugi-logo.svg' alt='Госуслуги' /> <div class='bf-2__slogan'>Решаем вместе</div > </div > </div > <div class='bf-2__content'> <div class='bf-2__description'> <span class='bf-2__text'> Не убран мусор, яма на дороге, не горит фонарь? </span > <span class='bf-2__text bf-2__text_small'> Столкнулись с проблемой&nbsp;— сообщите о ней! </span > </div > <div class='bf-2__btn-wrap'> <!-- pos-banner-btn_2 не удалять; другие классы не добавлять --> <button class='pos-banner-btn_2' type='button' >Сообщить о проблеме </button > </div > </div > </div > </div > <script> (function(){ "use strict";function ownKeys(e,t){var o=Object.keys(e);if(Object.getOwnPropertySymbols){var n=Object.getOwnPropertySymbols(e);if(t)n=n.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable});o.push.apply(o,n)}return o}function _objectSpread(e){for(var t=1;t<arguments.length;t++){var o=null!=arguments[t]?arguments[t]:{};if(t%2)ownKeys(Object(o),true).forEach(function(t){_defineProperty(e,t,o[t])});else if(Object.getOwnPropertyDescriptors)Object.defineProperties(e,Object.getOwnPropertyDescriptors(o));else ownKeys(Object(o)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(o,t))})}return e}function _defineProperty(e,t,o){if(t in e)Object.defineProperty(e,t,{value:o,enumerable:true,configurable:true,writable:true});else e[t]=o;return e}var POS_PREFIX_2="--pos-banner-fluid-2__",posOptionsInitial={"grid-template-columns":"100%","grid-template-rows":"310px auto","decor-grid-column":"initial","decor-grid-row":"initial","decor-padding":"30px 30px 0 30px","bg-url":"url('https://pos.gosuslugi.ru/bin/banner-fluid/2/banner-fluid-bg-2-small.svg')","bg-position":"calc(10% + 64px) calc(100% - 20px)","bg-size":"cover","content-padding":"0 30px 30px 30px","slogan-font-size":"20px","slogan-line-height":"32px","logo-wrap-padding":"20px 30px 30px 40px","logo-wrap-top":"0","logo-wrap-bottom":"initial","logo-wrap-border-radius":"0 0 0 80px"},setStyles=function(e,t){Object.keys(e).forEach(function(o){t.style.setProperty(POS_PREFIX_2+o,e[o])})},removeStyles=function(e,t){Object.keys(e).forEach(function(e){t.style.removeProperty(POS_PREFIX_2+e)})};function changePosBannerOnResize(){var e=document.documentElement,t=_objectSpread({},posOptionsInitial),o=document.getElementById("js-show-iframe-wrapper"),n=o?o.offsetWidth:document.body.offsetWidth;if(n>405)t["slogan-font-size"]="24px",t["logo-wrap-padding"]="30px 50px 30px 70px";if(n>500)t["grid-template-columns"]="min-content 1fr",t["grid-template-rows"]="100%",t["decor-grid-column"]="2",t["decor-grid-row"]="1",t["decor-padding"]="30px 30px 30px 0",t["content-padding"]="30px",t["bg-position"]="0% calc(100% - 70px)",t["logo-wrap-padding"]="30px 30px 24px 40px",t["logo-wrap-top"]="initial",t["logo-wrap-bottom"]="0",t["logo-wrap-border-radius"]="80px 0 0 0";if(n>585)t["bg-position"]="0% calc(100% - 6px)";if(n>800)t["bg-url"]="url('https://pos.gosuslugi.ru/bin/banner-fluid/2/banner-fluid-bg-2.svg')",t["bg-position"]="0% center";if(n>1020)t["slogan-font-size"]="32px",t["line-height"]="40px",t["logo-wrap-padding"]="30px 30px 24px 50px";setStyles(t,e)}changePosBannerOnResize(),window.addEventListener("resize",changePosBannerOnResize),window.onunload=function(){var e=document.documentElement;window.removeEventListener("resize",changePosBannerOnResize),removeStyles(posOptionsInitial,e)}; })() </script> <script>Widget("https://pos.gosuslugi.ru/form", 233059)</script>
+
+         
+<div class="projects">
+    <h2>Наши проекты</h2>
+        <div class="img-50">
+            <div style="background-image: url('/img/rksi/coppbg.jpg');" class="projects-flex"><a href="http://copp161.ru" target="_blank"><img src="/img/rksi/logocopp.svg"/></a></div>
+            <div style="background-image: url('/img/rksi/rcbg.jpg');" class="projects-flex"><a href="http://rc.rksi.ru" target="_blank"><img src="/img/rksi/rc-logo.svg"/></a></div>
+        </div>
+        <div class="img-50">
+            <div style="background-image: url('/img/rksi/mediabg.jpg');" class="projects-flex"><a href="http://mediapark.rksi.ru/" target="_blank"><img src="/img/rksi/logo_ms.svg"/></a></div>
+            <div style="background-image: url('/img/rksi/itbg.jpg');" class="projects-flex"><a href="https://it-factory.rksi.su" target="_blank"><img src="/img/rksi/logoit.svg"/></a></div>
+        </div>
+    </div>
+</div>
+
+</div>
+<footer id="footer">
+	<div class="wrapper">
+    <h2 class="centr">Контакты</h2>
+    <div class="flexbox">
+        <div class="f50"><strong>Приемная директора</strong><br />Тел.: +7 (863) 206-88-88 доб. 2032<br />Телефон: +7 (863) 267-58-26<br />e-mail: <a href="mailto:rksi@rostobr.ru">rksi@rostobr.ru</a></div>
+        <div class="f50 right"><strong>Приемная комиссия</strong><br />Тел.: +7 (863) 206-88-88, доб. 1061<br /><strong>Подготовительные курсы</strong><br />Тел.: +7 (863) 206-88-88 доб. 3091</div>
+    </div>
+    <p class="mainphone"><a href="/contacts">Многоканальный телефон: <strong style="white-space: nowrap;">+7 (863) 206-88-88</strong></a></p>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aafab363783931c44585473593608b6d02c1326f7726eccb05e450f70f2135659&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+
+					<ul class="icons margin-rem">
+												<li><a href="https://vk.com/pkcu_college" class="icon round fa-vk" target="_blank"><span class="label">ВК</span></a></li>
+                        	<li><a href="https://t.me/rksi_ru" class="icon round fa-telegram" target="_blank"><span class="label">Tg</span></a></li>
+						
+					</ul>
+     </div>
+    <div class="innerlinks">
+        <div class="wrapper">
+            <div class="img-50">
+                <div><h2><i class="fa fa-cloud-upload" aria-hidden="true"></i> ПАРТНЁРЫ РКСИ</h2>
+                <a href="//minsvyaz.donland.ru/" rel="nofollow" target="_blank">Министерство цифрового развития информационных<br />технологий и связи РО</a><br>
+                <a href="//rostov.rt.ru/" rel="nofollow" target="_blank">Ростовский филиал ПАО «Ростелеком»</a><br>
+                <a href="//www.rostovpost.ru/" rel="nofollow" target="_blank">УФПС Ростовской области</a> <br>
+                <a href="//www.technodrive.ru/rostov/" target="_blank">Новостной ИТ-портал Ростова TechnoDrive.ru</a><br>
+                <a href="//rostov.rtrn.ru/" rel="nofollow" target="_blank">Филиал РТРС «Ростовский ОРТПЦ»</a> <br>
+                <a href="//www.srro.ru/" rel="nofollow" target="_blank">«Союз работодателей Ростовской области»</a><br>
+                <a href="//www.nppgamma.ru/" rel="nofollow" target="_blank">Научно-производственное предприятие «Гамма»</a><br><a href="//dontr.ru/" rel="nofollow" target="_blank">ГТРК «Дон-ТР»</a>
+                <h3><a href="/news/partners">Новости партнёров</a></h3>
+                    </div>
+                <div>
+                <h2><i class="fa fa-external-link" aria-hidden="true"></i> ПОЛЕЗНЫЕ РЕСУРСЫ</h2>
+                <a href="//edu.gov.ru/" rel="nofollow" target="_blank">Официальный сайт Министерства<br>просвещения Российской Федерации</a><br><a href="https://www.xn--d1abkefqip0a2f.xn--p1ai/" target="_blank" rel="nofollow">Электронная библиотека образования</a><br><a href="//window.edu.ru/" rel="nofollow" target="_blank">Единое окно доступа к образовательным ресурсам</a><br>
+                <a href="http://bus.gov.ru/pub/#!/independentRating/list" target="_blank" rel="nofollow">Результаты независимой оценки качества<br />оказания услуг организациями</a><br>
+                <a href="https://npd.nalog.ru/app" target="_blank" rel="nofollow">Мобильное приложение «Мой налог»</a><br>
+                <a href="//www.edu.ru/" rel="nofollow" target="_blank">Федеральный портал «Российское образование»</a><br>
+                <a href="//pravo.gov.ru" rel="nofollow">Портал правовой информации</a><br>
+                <a href="//school-collection.edu.ru/" rel="nofollow" target="_blank">Единая коллекция ЦОР</a><br>
+                <a href="//fcior.edu.ru/" rel="nofollow" target="_blank">ФЦИОР</a>
+                </div>
+                </div>
+        </div>
+    </div>    
+    <div class="copyright"> <a href="/info">&copy; Государственное бюджетное профессиональное образовательное учреждение Ростовской области 
+<strong>«Ростовский-на-Дону колледж связи и информатики»</strong></a><br />
+Учредитель – <strong><a href="https://minobr.donland.ru/" rel="nofollow" target="_blank">Министерство общего  и профессионального образования Ростовской области</a></strong>.<br /> Разработка: <a href="https://yanval.ru/works" target="_blank">Ижогин Ян Валерьевич</a>									</div>
+</footer>
+<div id="googleform" class="googleform-hide"><div id="closegoogle">Вернуться на сайт</div><iframe src="https://docs.google.com/forms/d/1vfR4TW8zo8jpjyP446Bjb5FK_gJA9dUaBtj9GkSjeto/viewform?embedded=true" width="100%" height="670" frameborder="0" marginheight="0" marginwidth="0" style="height: 100vh;">Загрузка...</iframe>
+</div>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 75021, {disableExpandChatSound: "1",tooltipButtonText: "Задайте вопрос сообществу «Вконтакте»"});
+</script>
+ <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter14472892 = new Ya.Metrika({id:14472892, enableAll: true, webvisor:true});
+        } catch(e) {}
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/14472892" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<div id="right-panel" class="right-panel-hide"><div class="closekey"><span id="rmenu-show"><i class="fa fa-times" aria-hidden="true"></i></span></div>
+<div class="leftbox">
+<ul class="topmenu">
+<li><input type="checkbox" checked><i></i><span>Наши победы</span>
+    <ul class="submenu">
+        <li><a href="/olimp">Олимпиады, конкурсы, конференции, выставки</a></li>
+                <li><a href="/names">Знаменитые выпускники</a></li>
+        <li><a href="/honor_board">Наша гордость</a></li>
+        <li><a href="/best_students2024">Лучшие студенты</a></li>
+        <li><a href="/best_groop">Лучшая группа</a></li>
+                <li><a href="/sport">Спортивные победы</a></li>
+    </ul>
+</li>
+<li><input type="checkbox" checked><i></i><span>На базе РКСИ</span>
+    <ul class="submenu">
+        <li><a href="/professionals2024" target="_blank">Чемпионат по профессиональному мастерству «Профессионалы»</a></li>
+        <li><a href="/high_technology2024" target="_blank">Региональный этап чемпионата высоких технологий</a></li>
+        <li><a href="/it_tech2024">Хакатон «IT Tech»</a></li>
+         <li><a href="/olimpiada2024">Региональная олимпиада профессионального мастерства</a></li>
+        <li><a href="/festival2024">Областной фестиваль «Моя будущая профессия – специалист в области ИТ и телекоммуникаций»</a></li>
+        <li><a href="/spo2023">День среднего профессионального образования</a></li>
+        <li><a href="/together_for_the_truth2024">Патриотический слёт «Вместе за правду»</a></li>
+        <li><a href="/concurses">Конкурсы профессионального мастерства педагогов</a></li>
+        <li><a href="https://it-factory.rksi.su/" target="_blank">IT-фабрика</a></li>
+        <li><a href="/museum" target="_blank">Музей РКСИ</a></li>
+    </ul>
+</li>
+<li><input type="checkbox" checked><i></i><span>Учебные центры</span>
+    <ul class="submenu">
+        <li><a href="http://rc.rksi.ru" target="_blank">Региональный отраслевой ресурсный центр информационных технологий и телекоммуникаций</a></li>
+        <li><a href="/cisco">Сетевая академия Cisco</a></li>
+        <li><a href="/samsung">Сервисная академия Samsung</a></li>
+        <li><a href="/mikrotik">Академия Mikrotik</a></li>
+        <li><a href="/basealt">Авторизованный учебный центр «Базальт&nbsp;СПО»</a></li>
+        <li><a href="/nikomax">Авторизованный учебно-практический центр NIKOMAX</a></li>
+    </ul>
+</li>
+
+
+<li><input type="checkbox" checked><i></i><span>Полезное</span>
+    <ul class="submenu">
+    <li><a href="/employment">Трудоустройство</a></li>
+            <li><a href="/good_channels">Полезные каналы коммуникации в сфере образования</a></li>
+        <li><a href="/scam">Как понять, что говоришь с мошенником?</a></li>
+        <li><a href="http://rksi.ru/doc/gosuslugi/freejustition.doc">Оказание бесплатной юридической помощи</a></li>
+         <li><a href="/doc/safety/bpla.pdf" target="_blank">Как вести себя при атаке БПЛА</a></li>
+        <li><a href="https://drive.google.com/file/d/1k51X5lnYyQXdNLBqQ7XNbdimOaoY-6wa/view?usp=sharing" target="_blank">Профилактика правонарушений в сети Интернет</a></li>
+         <li><a href="/stop_drags">Нет наркотикам!</a></li>
+        <li><a href="/infection">Профилактика инфекций</a></li>
+        <li><a href="/safety" target="_blank">Безопасность жизнедеятельности</a></li>
+        <li><a href="/netsafety">Информационная безопасность</a></li>
+        <li><a href="/gosuslugi">Государственные услуги</a></li>
+    </ul>
+</li>
+<li><input type="checkbox" checked><i></i><span>Психологическая служба</span>
+    <ul class="submenu">
+        <li><a href="/trust_service">Служба доверия</a></li>
+        <li><a href="/psychological_service">Психологи колледжа</a></li>
+          </ul>
+</li>
+<li><input type="checkbox" checked><i></i><span>Обратная связь</span>
+    <ul class="submenu" id="lastitem">
+        <li><a href="/contacts">Контакты</a></li>
+        <li><a href="#"  onclick="popup_toggle('https://docs.google.com/forms/d/1vfR4TW8zo8jpjyP446Bjb5FK_gJA9dUaBtj9GkSjeto/viewform?embedded=true');">Обращение или консультация</a></li>
+        <li><a href="#"  onclick="popup_toggle('https://docs.google.com/forms/d/e/1FAIpQLSekPJBJJvEtd3-wlDMefKdghc3H5NMV52zWfvnVLlEQGd2gDA/viewform?embedded=true');">Оставить отзыв о качестве образования</a></li>
+        <li><a href="/recruiter">Заказать дипломную работу</a></li>
+                
+    </ul>
+</li>
+</ul>
+<ul class="topmenu">
+    <li><input type="checkbox" checked><i></i><span>Новости</span>
+    <ul class="submenu">
+        <li><a href="/news">Новости</a></li>
+        <li><a href="/open_days">Дни открытых дверей</a></li>
+        <li><a href="/news/smi">СМИ о нас</a></li>
+        <li><a href="/videonews">РКСИ-ТВ</a></li>
+        <li><a href="/aska-net">Газета колледжа «Аська.NET»</a></li>
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>О колледже</span>
+    <ul class="submenu">
+        <li><a href="/tour">3D-тур</a></li>     
+        <li><a href="/history">История и традиции</a></li>
+        <li><a href="/blago">Отзывы и благодарности</a></li>
+        <li><a href="https://trudvsem.ru/company/1026103275440" target="_blank">Вакансии колледжа</a></li>
+        <li><a href="/priority">Конкурентные преимущества</a></li>
+        <li><a href="/international">Международное сотрудничество</a></li>
+        <li><a href="/pops">Попечительский совет</a></li>
+        <li><a href="/starfsmenntun">Взаимодействие с ВУЗами</a></li>
+        <li><a href="/nir">Научно-исследовательская работа</a></li>
+        <li><a href="/demo_exam">Демонстрационный экзамен</a></li>
+        <li><a href="/mentorship">Наставничество в РКСИ</a></li>
+        <li><a href="/young_professionals">Национальный проект «Образование»</a></li>
+        <li><a href="/social">Социальное партнерство</a></li>
+        <li><a href="/contacts">Контакты</a></li>
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Студенту</span>
+    <ul class="submenu">
+    <li><a href="/online_edu">Работа РКСИ в режиме оn-line</a></li>
+        <li><a href="/schedule">Расписания</a></li>
+        <li><a href="/sveden/education">Образовательные программы</a></li>
+        <li><a href="/account">Кабинет студента</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1TYqoU3pGHd_u1UWjHV5TaHKOZr_d3nYG1MG0cVKye3Q/view#gid=1185239252" target="_blank">Связь с преподавателями</a></li>
+        <li><a href="/movement_of_the_first">Движение Первых</a></li>
+        <li><a href="/military">Учебные сборы</a></li>
+        <li><a href="/doc/targeted/student.pdf" target="_blank">Памятка обучающемуся по организации  целевого обучения</a></li>
+        <li><a href="/faculties">Отделения</a></li>
+        <li><a href="/librery">Библиотека колледжа</a></li>
+        <li><a href="/netlibs">Сетевые электронные библиотеки</a></li>
+        <li><a href="/prise">Оплата обучения</a></li>
+        <li><a href="/loans">Образовательные кредиты</a></li>
+        <li><a href="/useful_info">Полезная информация</a></li>
+        <li><a href="/access_control">Как восстановить пропуск?</a></li>
+        <li><a href="/sports_club">Спортивный клуб</a></li>
+        <li><a href="/creative_studios">Творческие студии</a></li>
+        <li><a href="//mediapark.rksi.ru/">Медиастудия РКСИ</a></li>
+        <li><a href="/sno">Научное общество</a></li>
+        <li><a href="/materials">Учебные материалы</a></li>
+        <li><a href="/praktica">Производственная практика</a></li>     
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Абитуриенту</span>
+    <ul class="submenu">
+        <li><a href="/priem">Приeм в РКСИ</a></li>
+        <li><a href="/reception" >Заполнить заявление онлайн</a></li>         <li><a href="/cabinet">Кабинет абитуриента</a></li><li><a href="/newstudentlist">Приказы о зачислении и cписки зачисленных в РКСИ</a></li>
+                 
+        <li><a href="/admission">Специальности для поступления</a></li>
+        
+        <li><a href="/podkursi">Подготовительные курсы</a></li>
+        <li><a href="/ito_school">Воскресная школа информатики</a></li>
+         <li><a href="/credit">Образовательный кредит</a></li>
+          <li><a href="/doc/targeted/abiturient.pdf" target="_blank">Памятка абитуриенту по организации  целевого обучения</a></li>
+        <li><a href="https://it-factory.rksi.su/" target="_blank">Летний мини-лагерь «IT-фабрика компьютерных гениев!»</a></li>
+        <li><a href="/dorms">Общежития</a></li>
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Выпускнику</span>
+    <ul class="submenu">
+        <li><a href="/employment">Трудоустройство</a></li>    
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Родителям</span>
+    <ul class="submenu">
+                <li><a href="/no_diversity">Предотвращение вовлечения подростков в совершение диверсий</a>
+                <li><a href="https://drive.google.com/file/d/1HgHm69e7rz2sZl0uIRqaHaEoJJoKPpTS/view" target="_blank">Об особенностях развития детей и подростков.</a>
+                <li><a href="/doc/safety/yabedavk.pdf?t=88a0ee53faa2b9ed" target="_blank">Как пожаловаться на противоправные материалы?</a>
+        <li><a href="/doc/safety/pamyatka_group.pdf?t=88a0ee53faa2b9ed" target="_blank">Как выявить вовлечённость в «Группы смерти»?</a>
+        <li><a href="/doc/klr/safety3.pdf?t=88a0ee53faa2b9ed" target="_blank">Безопасность в сети</a></li>
+        <li><a href="https://drive.google.com/file/d/14muXoOBL62kvp-_8HSDcMDO-maon8_lU/view?usp=share_link" target="_blank">Безопасность детей в интернете. Возраст и этапы развития</a></li>
+        <li><a href="https://drive.google.com/file/d/1YTpazPbECEGrpGnBJCDF31nZnYHspQK1/view?usp=share_link" target="_blank">Как распознать мошенничество в сети</a></li>
+    </ul>
+    </li>
+    <li><input type="checkbox" checked><i></i><span>Преподавателям</span>
+    <ul class="submenu" id="lastitem">
+     <li><a href="/locals#teacher">Документация</a></li>
+        <li><a href="/class">Классному руководителю</a></li>
+        <li><a href="/class_leader">Кабинет классного руководителя</a></li>
+        <li><a href="/schedule_archive">Архив расписания</a></li>
+        <li><a href="/mentorship">Наставничество в РКСИ</a></li>
+        <li><a href="/attestation">Аттестация педагогических работников</a></li>
+        <li><a href="http://rksi.ru/infection#corona">Коронавирус: что делать?</a>
+        <li><a href="/librery#zakaz">Заказ учебников</a></li>
+        <li><a href="/good_channels">Полезные каналы коммуникации в сфере образования</a></li>
+        <li><a href="/methodika">Методические разработки</a></li>
+    </ul></li>
+</ul>     
+</div>
+<div style="text-align: center; margin-top: 1.2em; font-size: 180%; word-spacing: 3px;">
+
+        <a href="https://vk.com/pkcu_college" target="_blank"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+        <a href="https://t.me/rksi_ru" target="_blank"><i class="fa fa-telegram fa-lg" aria-hidden="true"></i></a>
+
+</div>
+</div><div id="popupform" class="popupform-hide">
+    <div id="closepopup" onclick="popup_toggle('')">Вернуться на сайт</div>
+    <iframe id="popupframe" src="" width="100%" frameborder="0" marginheight="0" marginwidth="0" style="height: 100vh;">Загрузка...</iframe>
+</div> 
+<script src="/scripts/bvi.min.js"></script>
+<script>
+  new isvek.Bvi({
+    target: '.bvi-open',
+    fontSize: 14,
+  })
+</script>
+</body>
+</html>
